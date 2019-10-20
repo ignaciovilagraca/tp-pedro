@@ -1,0 +1,80 @@
+body{
+	background: purple;
+}
+
+
+header{
+	text-align: center;
+}
+header li{
+	display: inline;
+}
+
+nav {
+	margin: 10px 0 10px 0;
+	display: inline;
+}
+
+nav ul {
+	padding: 5px;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+ul li {
+ display: inline;
+ }
+ ul li a {
+ font-family: Arial;
+ font-size: 28px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ background-color: purple;
+ color: plum;
+ }
+ article{
+text-align: center;
+ }
+
+.Contenedor{
+
+	background: violet; 
+	width: 400px;
+	height: 240px;
+	padding: 15px;
+	margin: 10px;
+	margin-right: 189px;
+	margin-left: 189px;
+	display: inline-table;
+}
+.bloque1{
+
+	width: 180px;
+	height: 200px;
+	float: left;
+	
+}
+.bloque2{
+
+	width: 180px;
+	height: 200px;
+	float: right;
+	
+}
+
+
+article{
+text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+

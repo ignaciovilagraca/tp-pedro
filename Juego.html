@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ejercicio 1</title>
+		<link href="estilos.css" rel="stylesheet">
+		<script type="text/javascript" src="funciones.js"></script>
+	</head>
+	<body>
+		<div>	
+			<header>
+				<h1>Trabajo Practico N1</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Pagina de inicio</a></li>
+					<li><a href="ejercicio1.html">Ejercicios numero</a></li>
+					<li><a href="Receta.Html">Ejercicio receta</a></li>
+					<li><a href="Juego.html">Juego</a></li>
+				</ul>
+			</header>
+			</nav><br>
+			<br>
+			<article>
+			<div class="Contenedor">
+				<div class="bloque1" >
+				
+					<label>Valor Dado 1</label>			
+					<input type="text" id="txtValorDado1J1">
+					<label>Valor Dado 2</label>			
+					<input type="text" id="txtValorDado2J1">
+					<label>Valor Dado 3</label>			
+					<input type="text" id="txtValorDado3J1">
+
+					<button id="Jugador1" onclick="TirarDados(1);">Tirar Dados Jugador 1</button>
+				</div>
+				<div class="bloque2" >
+				
+					<label>Valor Dado 1</label>			
+					<input type="text" id="txtValorDado1J2">
+					<label>Valor Dado 2</label>			
+					<input type="text" id="txtValorDado2J2">
+					<label>Valor Dado 3</label>			
+					<input type="text" id="txtValorDado3J2">
+
+					<button id="Jugador2" disabled="true" onclick="TirarDados(2);">Tirar Dados Jugador 2</button>
+				</div>
+			</div>
+			<br><br>
+			<div class="Contenedor">
+
+				<div id="PuntosJ1" class="bloque1" >
+					<p>Puntajes Jugador 1</p>			
+			
+
+					</div>
+				
+					<div id="PuntosJ2" class="bloque2" >
+						<p>Puntajes Jugador 2</p>		
+						
+					</div>
+					<button id="Desempate" onclick="Desempate();" style="visibility: hidden;">Desempate</button>
+				</div>	
+			
+			</article>
+
+					
+			
+			
+		</div>
+
+	</body>
+</html>
